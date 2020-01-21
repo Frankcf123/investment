@@ -36,10 +36,10 @@
  * @filesource
  */
 
-echo "asdfaf";
+// echo "asdfaf";
 
-phpinfo();
-exit;
+// phpinfo();
+// exit;
 
 /*
  *---------------------------------------------------------------

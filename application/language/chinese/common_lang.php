@@ -2,9 +2,9 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['website_title'] = 'CourseYell';
+$lang['website_title'] = 'F-star';
 $lang['home'] = 'Home';
-$lang['courseyell'] = 'CourseYell';
+$lang['fstar'] = 'F-star';
 $lang['school'] = 'School';
 $lang['discussion_forum'] = 'Discussion Forum';
 $lang['start_to_search'] = 'Start to search your course';

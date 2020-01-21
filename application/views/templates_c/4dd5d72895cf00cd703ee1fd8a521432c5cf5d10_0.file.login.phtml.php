@@ -1,5 +1,35 @@
-{include file="layout/header.phtml" }
-{include file="layout/navigation.phtml"}
+<?php
+/* Smarty version 3.1.30, created on 2020-01-21 17:34:21
+  from "C:\xampp\htdocs\investment\application\views\templates\user\login.phtml" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_5e27280dade348_68272091',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '4dd5d72895cf00cd703ee1fd8a521432c5cf5d10' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\investment\\application\\views\\templates\\user\\login.phtml',
+      1 => 1579624456,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+    'file:layout/header.phtml' => 1,
+    'file:layout/navigation.phtml' => 1,
+    'file:layout/footer.phtml' => 1,
+  ),
+),false)) {
+function content_5e27280dade348_68272091 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->_subTemplateRender("file:layout/header.phtml", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+?>
+
+<?php $_smarty_tpl->_subTemplateRender("file:layout/navigation.phtml", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+?>
+
 
 <!--<div class="container">-->
 <!---->
@@ -40,5 +70,11 @@
             </div>
 
 </div>
-<script type="text/javascript" src="/assets/js/user.js"></script>
-{include file="layout/footer.phtml" }
+<?php echo '<script'; ?>
+ type="text/javascript" src="/assets/js/user.js"><?php echo '</script'; ?>
+>
+<?php $_smarty_tpl->_subTemplateRender("file:layout/footer.phtml", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+?>
+
+<?php }
+}

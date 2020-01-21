@@ -33,13 +33,13 @@ class MY_CONTROLLER extends  CI_Controller{
 
     public function loadViewWithNav($page_name){
         $this->loadnavigation();
-        $this->loadLanguage(array('website_title','home','courseyell','school','discussion_forum'));
+        $this->loadLanguage(array('website_title','home','fstar','school','discussion_forum'));
         $this->smarty->view($page_name);
 
     }
     public function loadView($page_name){
 //        $this->loadnavigation();
-        $this->loadLanguage(array('website_title','home','courseyell','school','discussion_forum'));
+        $this->loadLanguage(array('website_title','home','fstar','school','discussion_forum'));
         $this->smarty->view($page_name);
 
     }
